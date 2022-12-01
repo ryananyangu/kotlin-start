@@ -7,31 +7,62 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
-import mu.KotlinLogging
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
+import com.fasterxml.jackson.databind.ObjectMapper
+import java.net.http.HttpClient
+import java.net.http.HttpRequest
+import java.net.http.HttpResponse
+import java.net.URI
 
 
-private val staticLogger = KotlinLogging.logger {}
+fun getLogger(name: String): Logger = LoggerFactory.getLogger(name)
 
-suspend fun sendMpesaTransaction() {
-    val curr_thread =  Thread.currentThread().name
-    staticLogger.info{" sending mpesa trx initiated!!on proc = $curr_thread"}
-    
+suspend fun sendMpesaTransaction(data: String, url: String) {  
     delay(1000L)// TO make sure the main thread completes first [sim network and delays to make sure main thread has exited]
-    staticLogger.info("Completed sending mpesa transaction successfully !!")
+    val client = HttpClient.newBuilder().build();
+    val request = HttpRequest.newBuilder()
+        .uri(URI.create(url))
+        .POST(HttpRequest.BodyPublishers.ofString(data))
+        .build()
+        
+    // val response = client.send(request, HttpResponse.BodyHandlers.ofString());
+    getLogger("production").info("Completed sending mpesa transaction successfully!!")
 }
 
 
 fun completeTheValidation(){
-    val curr_thread =  Thread.currentThread().name
-    staticLogger.info("Validation Complete successfully!!on proc = $curr_thread")
+    
+    getLogger("production").info("Validation Complete successfully!!")
 }
 
 fun main() {
+    getLogger("production").info(" Request recieved processing starts!!")
+    val values = mapOf("name" to "John Doe", "occupation" to "gardener")
+    val url = "https://posthere.io/93b3-4a3b-b21c"
+    val objectMapper = ObjectMapper()
+    val requestBody: String = objectMapper
+        .writeValueAsString(values)
     GlobalScope.launch{
-        sendMpesaTransaction()
+        // delay(1000L)
+        sendMpesaTransaction(requestBody,url)
+        // sendAsyncPostRequest(requestBody, url)
+    //     getLogger("production").info("session!!")
     }
     completeTheValidation()
-    staticLogger.info("validation session closed!!")
+    getLogger("production").info("validation session closed!!")
     Thread.sleep(2000)
+}
+
+suspend fun sendAsyncPostRequest() {
+// 
+
+
+    delay(10000L)
+
+
+    
+    // getLogger("production").info("$response.statusCode()")
+    getLogger("production").info("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj") 
 }
 

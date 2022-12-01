@@ -1,0 +1,100 @@
+2022-12-01 10:58:30,767 INFO [main] production [App.kt:28]  Request recieved processing starts!!
+2022-12-01 10:58:30,801 INFO [main] production [App.kt:24] Validation Complete successfully!!
+2022-12-01 10:58:30,802 INFO [main] production [App.kt:33] validation session closed!!
+2022-12-01 10:58:31,807 INFO [DefaultDispatcher-worker-2] production [App.kt:18] Completed sending mpesa transaction successfully!!
+2022-12-01 10:59:02,541 INFO [main] production [App.kt:28]  Request recieved processing starts!!
+2022-12-01 10:59:02,574 INFO [main] production [App.kt:24] Validation Complete successfully!!
+2022-12-01 10:59:02,574 INFO [main] production [App.kt:33] validation session closed!!
+2022-12-01 10:59:02,575 INFO [DefaultDispatcher-worker-1] production [App.kt:18] Completed sending mpesa transaction successfully!!
+2022-12-01 11:17:59,447 INFO [main] production [App.kt:33]  Request recieved processing starts!!
+2022-12-01 11:17:59,478 INFO [main] production [App.kt:29] Validation Complete successfully!!
+2022-12-01 11:17:59,479 INFO [main] production [App.kt:38] validation session closed!!
+2022-12-01 11:17:59,480 INFO [DefaultDispatcher-worker-1] production [App.kt:23] Completed sending mpesa transaction successfully!!
+2022-12-01 11:29:03,799 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 11:29:03,829 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 11:29:03,829 INFO [main] production [App.kt:38] validation session closed!!
+2022-12-01 11:29:32,980 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 11:29:33,009 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 11:29:33,009 INFO [main] production [App.kt:39] validation session closed!!
+2022-12-01 11:44:06,527 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 11:44:06,634 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 11:44:06,634 INFO [main] production [App.kt:43] validation session closed!!
+2022-12-01 11:45:32,775 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 11:45:32,885 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 11:45:32,886 INFO [main] production [App.kt:43] validation session closed!!
+2022-12-01 14:57:56,536 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 14:57:56,643 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 14:57:56,643 INFO [main] production [App.kt:43] validation session closed!!
+2022-12-01 14:58:38,340 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 14:58:38,441 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 14:58:38,442 INFO [main] production [App.kt:44] validation session closed!!
+2022-12-01 14:59:37,576 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 14:59:37,684 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 14:59:37,685 INFO [main] production [App.kt:44] validation session closed!!
+2022-12-01 14:59:37,685 INFO [DefaultDispatcher-worker-1] production [App.kt:23] Completed sending mpesa transaction successfully!!
+2022-12-01 15:00:09,784 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 15:00:09,880 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 15:00:09,880 INFO [main] production [App.kt:44] validation session closed!!
+2022-12-01 15:00:09,881 INFO [DefaultDispatcher-worker-1] production [App.kt:23] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 15:01:31,470 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 15:01:34,255 INFO [main] production [App.kt:61] (POST https://posthere.io/93b3-4a3b-b21c) 200.statusCode()
+2022-12-01 15:01:34,255 INFO [main] production [App.kt:62] We got your request! View your results at: http://posthere.io/93b3-4a3b-b21c
+
+2022-12-01 15:01:34,255 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 15:01:34,255 INFO [main] production [App.kt:44] validation session closed!!
+2022-12-01 15:08:18,030 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 15:08:18,129 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 15:08:18,129 INFO [main] production [App.kt:44] validation session closed!!
+2022-12-01 15:08:52,175 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 15:08:52,280 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 15:08:52,281 INFO [main] production [App.kt:45] validation session closed!!
+2022-12-01 16:38:58,255 INFO [main] production [App.kt:32]  Request recieved processing starts!!
+2022-12-01 16:38:58,353 INFO [main] production [App.kt:28] Validation Complete successfully!!
+2022-12-01 16:38:58,353 INFO [main] production [App.kt:45] validation session closed!!
+2022-12-01 16:41:28,141 INFO [main] production [App.kt:33]  Request recieved processing starts!!
+2022-12-01 16:41:28,248 INFO [main] production [App.kt:29] Validation Complete successfully!!
+2022-12-01 16:41:28,249 INFO [main] production [App.kt:46] validation session closed!!
+2022-12-01 16:41:29,253 INFO [DefaultDispatcher-worker-1] production [App.kt:23] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:44:29,654 INFO [main] production [App.kt:33]  Request recieved processing starts!!
+2022-12-01 16:44:29,751 INFO [main] production [App.kt:29] Validation Complete successfully!!
+2022-12-01 16:44:29,752 INFO [main] production [App.kt:46] validation session closed!!
+2022-12-01 16:46:47,842 INFO [main] production [App.kt:33]  Request recieved processing starts!!
+2022-12-01 16:46:47,938 INFO [main] production [App.kt:29] Validation Complete successfully!!
+2022-12-01 16:46:47,938 INFO [main] production [App.kt:46] validation session closed!!
+2022-12-01 16:47:14,596 INFO [main] production [App.kt:33]  Request recieved processing starts!!
+2022-12-01 16:47:14,697 INFO [main] production [App.kt:29] Validation Complete successfully!!
+2022-12-01 16:47:14,697 INFO [main] production [App.kt:46] validation session closed!!
+2022-12-01 16:47:58,261 INFO [main] production [App.kt:33]  Request recieved processing starts!!
+2022-12-01 16:47:58,383 INFO [main] production [App.kt:29] Validation Complete successfully!!
+2022-12-01 16:47:58,384 INFO [main] production [App.kt:46] validation session closed!!
+2022-12-01 16:47:59,389 INFO [DefaultDispatcher-worker-1] production [App.kt:23] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:48:33,886 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:48:33,992 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:48:33,992 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:48:50,115 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:48:50,213 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:48:50,213 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:48:51,218 INFO [DefaultDispatcher-worker-1] production [App.kt:29] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:49:02,353 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:49:02,451 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:49:02,451 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:49:03,612 INFO [DefaultDispatcher-worker-1] production [App.kt:29] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:49:16,643 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:49:16,746 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:49:16,746 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:49:17,907 INFO [DefaultDispatcher-worker-1] production [App.kt:29] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:49:28,096 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:49:28,210 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:49:28,210 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:49:29,339 INFO [DefaultDispatcher-worker-1] production [App.kt:29] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:49:40,683 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:49:40,780 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:49:40,780 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:49:41,930 INFO [DefaultDispatcher-worker-1] production [App.kt:29] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:49:51,443 INFO [main] production [App.kt:39]  Request recieved processing starts!!
+2022-12-01 16:49:51,562 INFO [main] production [App.kt:35] Validation Complete successfully!!
+2022-12-01 16:49:51,563 INFO [main] production [App.kt:52] validation session closed!!
+2022-12-01 16:49:52,691 INFO [DefaultDispatcher-worker-1] production [App.kt:29] Completed sending mpesa transaction successfully!!{"name":"John Doe","occupation":"gardener"}
+2022-12-01 16:50:54,767 INFO [main] production [App.kt:40]  Request recieved processing starts!!
+2022-12-01 16:50:54,873 INFO [main] production [App.kt:36] Validation Complete successfully!!
+2022-12-01 16:50:54,873 INFO [main] production [App.kt:53] validation session closed!!
